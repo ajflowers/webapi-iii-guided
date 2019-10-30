@@ -15,3 +15,18 @@ In this project we will learn how to create a very simple Web API using `Node.js
 - [ ] type `npm i` to download dependencies.
 
 Please follow along as the instructor creates and adds `middleware` to the API step by step.
+
+# Middleware notes
+
+*Everything is middleware*
+(almost)
+
+## types (source)
+
+- built-in: included w/ express, e.g., `express.json()`
+- third-party: install w/ npm/yarn
+- custom
+
+## types (use)
+
+- global: runs on every request
